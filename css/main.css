@@ -10,25 +10,27 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
 }
 
 .banner {
   max-height: 500px;
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 .banner-body {
   position: absolute;
-  top: 1em;
-  bottom: 1em;
-  padding: 1em;
+  bottom: 1rem;
+  left: 50%;
+  top: 25%;
+  transform: translateX(-50%);
+  width: 75%;
 }
 
-.circle {
+.circle-wrap {
   float: left;
-  width: 35%;
+  width: 40%;
 }
 
 .banner-text {
